@@ -17,22 +17,22 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="pb-5">
-      <div className="main-title my-8 ml-16">
+      <div className="main-title ml-8 my-8 sm:ml-16">
         <h1 className="text-[18px]">Helperzz / Brose All Categories</h1>
       </div>
       <Search />
-      <div className="custom-container mt-14">
+      <div className="px-[2rem] sm:px-[3rem] md-[6rem] mt-14">
         <ProjectList />
-        <div className="mt-20">
+        <div className="mt-15 sm:mt-20">
           <ServicesList />
         </div>
-        <div className="mt-20">
+        <div className="mt-15 sm:mt-20">
           <HomeDesigningList />
         </div>
-        <div className="mt-20">
+        <div className="mt-15 sm:mt-20">
           <OutDoorList />
         </div>
-        <div className="mt-20">
+        <div className="mt-15 sm:mt-20">
           <HomeServicesList />
         </div>
       </div>
